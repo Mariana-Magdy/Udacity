@@ -9,9 +9,10 @@ jobs:
   build:
     docker:
       # the base image can run most needed actions with orbs
-      - image: "cimg/node:14.15"
+      - image: "cimg/node:15.0.1-browsers"
     steps:
       # install node and checkout code
+      - browser-tools/install-browser-tools
       - node/install:
           node-version: '14.15'         
       - checkout
