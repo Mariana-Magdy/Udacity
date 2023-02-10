@@ -53,7 +53,7 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Deployment Details
 
-- Udagram frontend is using AWS S3 with option Static website hosting and its URL is [Udagram](http://udagramfrontendprod07022023.s3-website-us-east-1.amazonaws.com).
+- Udagram frontend is using AWS S3 with option Static website hosting and the production environment URL is [Udagram](http://udagramfrontendprod07022023.s3-website-us-east-1.amazonaws.com/index.html) and the staging environment is [UdagramStaging](https://udagramfrontendstaging07022023.s3-website-us-east-1.amazonaws.com/index.html).
 - Backend API is using AWS Elastic Beanstalk.
 - Database is using AWS RDS.
 - CI/CD is using [CircleCI](https://circleci.com).
