@@ -57,6 +57,7 @@ The e2e tests are using Protractor and Jasmine.
 - Backend API is using AWS Elastic Beanstalk.
 - Database is using AWS RDS.
 - CI/CD is using [CircleCI](https://circleci.com).
+- [GitHub Repo](https://github.com/Mariana-Magdy/Udacity).
 
 ## Built With
 
